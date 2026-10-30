@@ -13,7 +13,11 @@
 <body>
   <h1>Hulkrunners</h1>
   <p>Friends-only cooperative space looter-shooter builds.</p>
-  <video id="showcase" controls preload="metadata" playsinline src="hulkrunners-showcase.mp4"></video>
+  <video id="showcase" controls preload="metadata" playsinline>
+    <source src="hulkrunners-showcase.mp4" type="video/mp4">
+    <source src="hulkrunners-showcase.webm" type="video/webm">
+    <a href="hulkrunners-showcase.mp4">Download the showcase video</a>
+  </video>
   <script>document.getElementById("showcase").volume = 0.5;</script>
   <h2>Latest release: m4-5ad04260</h2>
   <ul>
